@@ -1,0 +1,15 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /ms-reestructure/v1
+
+spring:
+  cloud:
+    loadbalancer:
+      ribbon:
+        enable: false
+  devtools:
+    restart:
+      enabled: true
+  application:
+    name: ms-reestructure-v1
